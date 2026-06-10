@@ -30,6 +30,7 @@ class Hotel{
 			<<"HOTEL TYPE :"<<hotel_type<<endl<<"HOTEL RATING :"<<hotel_rating<<endl
 			<<"HOTEL LOCATION :"<<hotel_location<<endl<<"HOTEL ESTABLISH YEAR :"<<hotel_establish_year<<endl
 			<<"HOTEL STAFF QUANTITY :"<<hotel_staff_quantity<<endl<<"HOTEL ROOM QUANTITY :"<<hotel_room_quantity<<endl;
+			cout<<"-------------------------"<<endl;
 		}
 };
 int main(){
@@ -62,7 +63,7 @@ int main(){
 		cin>>year;
 		
 		cout<<endl<<"Enter Hotel Staff Quantity :";
-		cin>>staff;
+		cin>>staff;  
 		
 		cout<<endl<<"Enter Hotel Room Quantity :";
 		cin>>room;
